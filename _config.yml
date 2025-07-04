@@ -1,7 +1,7 @@
 title: "BXL2042"
 description: "Du contenu à revoir d'urgence"
 url: "https://ouaisfieu.github.io"
-baseurl: ""    #  ← Laisse vide si le site est à la racine (GitHub Pages utilisateur)
+baseurl: "/bxl2042"    #  ← Laisse vide si le site est à la racine (GitHub Pages utilisateur)
 lang: fr
 locale: fr
 title_separator: " - "
