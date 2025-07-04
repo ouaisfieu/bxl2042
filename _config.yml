@@ -1,7 +1,7 @@
-title: "BXL2030"
+title: "BXL2042"
 description: "Du contenu à revoir d'urgence"
 url: "https://ouaisfieu.github.io"
-baseurl: "/bxl2030"    # ← Laisse vide si le site est à la racine (GitHub Pages utilisateur)
+baseurl: ""    #  ← Laisse vide si le site est à la racine (GitHub Pages utilisateur)
 lang: fr
 locale: fr
 title_separator: " - "
@@ -9,11 +9,11 @@ logo: "/assets/img/clov-logo.png"
 site_logo: "/assets/img/clov-logo.png"
 masthead_logo: "/assets/img/clov-logo.png"
 
-google_site_verification: "zbDxfh0YRwPq1EWeeACKsKFwAhHsWX9WAycure8XirE"
+# google_site_verification: ""
 
 
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # change ici pour dark, plum, default, air, aqua, contrast, dirt, neon, mint
+minimal_mistakes_skin: "neon" # change ici pour dark, plum, default, air, aqua, contrast, dirt, neon, mint
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -83,7 +83,7 @@ author:
 
 seo:
   type: Website
-  name: "Bxl2030"
+  name: "Bxl2042"
   description: "Du contenu à revoir d'urgence"
 
 # Social
