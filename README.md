@@ -1,5 +1,5 @@
-# bxl2030
-Du contenu à revoir d'urgence
+# bxl2042
+> Du contenu à revoir d'urgence
 
 # 🌱 Template Jekyll Minimal Mistakes – Site prêt à l’emploi
 
@@ -21,7 +21,7 @@ Tout se fait depuis l’**interface web de GitHub**, en quelques clics.
 
 ## 🚀 Démarrer en 3 étapes
 
-1. Cliquez sur **[Use this template](https://github.com/ouaisfieu/bxl2030/generate)** pour créer votre propre copie du site  
+1. Cliquez sur **[Use this template](https://github.com/ouaisfieu/bxl2042/generate)** pour créer votre propre copie du site  
 2. Dans votre nouveau dépôt :
    - Allez dans **Settings → Pages**
    - Branche : `main`
