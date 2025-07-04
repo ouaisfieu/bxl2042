@@ -35,7 +35,7 @@ header:
 
 🟩 Pour créer une version personnalisée :
 
-1. Utiliser ce dépôt comme point de départ → [dupliquer le template](https://github.com/ouaisfieu/bxl2030/generate)
+1. Utiliser ce dépôt comme point de départ → [dupliquer le template](https://github.com/ouaisfieu/bxl2042/generate)
 2. Activer la publication GitHub Pages :
    - Aller dans **Settings → Pages**
    - Choisir la branche `main` et le dossier `/ (root)`
