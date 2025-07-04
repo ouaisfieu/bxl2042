@@ -1,0 +1,102 @@
+title: "BXL2030"
+description: "Du contenu à revoir d'urgence"
+url: "https://ouaisfieu.github.io"
+baseurl: "/bxl2030"    # ← Laisse vide si le site est à la racine (GitHub Pages utilisateur)
+lang: fr
+locale: fr
+title_separator: " - "
+logo: "/assets/img/clov-logo.png"
+site_logo: "/assets/img/clov-logo.png"
+masthead_logo: "/assets/img/clov-logo.png"
+
+google_site_verification: "zbDxfh0YRwPq1EWeeACKsKFwAhHsWX9WAycure8XirE"
+
+
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark" # change ici pour dark, plum, default, air, aqua, contrast, dirt, neon, mint
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache   # ← indispensable pour {% include_cached %}
+  - jekyll-paginate         # pour la pagination
+
+
+markdown: kramdown
+
+collections:
+  notes:
+    output: true       # génère des pages HTML pour chaque note
+    permalink: /notes/:title/
+
+  pnj:
+    output: true          # génère une page HTML pour chaque fiche
+    permalink: /pnj/:slug/  # URL propre = /pnj/gisele-icroit/
+
+
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      toc: true
+      image: /assets/img/og-default.png
+      header:
+        overlay_image: /assets/img/bxl-header.jpg
+        overlay_filter: "0.3"
+        caption: "Entre brume et ruines"
+      
+      
+  - scope:
+      path: "tutorial"
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+
+  - scope:
+      path: ""
+      type: "pnj"
+    values:
+      layout: single
+      classes: wide
+      categories: [PNJ]   # pour SEO / regroupement
+      share: true                     # ← active les balises OG/Twitter
+      twitter:
+        card: "summary_large_image"   # ← aperçu XL sur X/Twitter
+
+
+paginate: 10
+paginate_path: "/page:num/"
+
+author:
+  name   : "ouaisfi.eu"
+  avatar : "/assets/img/clov-logo.png"
+  bio    : "Curieux·se."
+
+
+
+seo:
+  type: Website
+  name: "Bxl2030"
+  description: "Du contenu à revoir d'urgence"
+
+# Social
+author:
+  name: "ouaisfi.eu"
+  avatar: "/assets/img/clov-logo.png"
+
+social:
+  name: "ouaisfi.eu"
+  links:
+    - "https://github.com/ouaisfieu"
+    - "https://bsky.app/profile/ouaisfieu.bsky.social"
+  
+copyright: "Dont'be evil, just do it"
+
+
