@@ -1,4 +1,6 @@
 main:
+  - title: "BXL2030"
+    url: "https://ouaisfieu.github.io/bxl2030/"
   - title: "Notes"
     url: /notes/
   - title: "PNJ"
