@@ -13,7 +13,7 @@ masthead_logo: "/assets/img/clov-logo.png"
 
 
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "mint" # change ici pour dark, plum, default, air, aqua, contrast, dirt, neon, mint
+minimal_mistakes_skin: "aqua" # change ici pour dark, plum, default, air, aqua, contrast, dirt, neon, mint
 plugins:
   - jekyll-feed
   - jekyll-sitemap
