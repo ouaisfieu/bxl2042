@@ -1,5 +1,5 @@
 title: "BXL2042"
-description: "Du contenu à revoir d'urgence"
+description: "Du contenu à revoir ensemble"
 url: "https://ouaisfieu.github.io"
 baseurl: "/bxl2042"    #  ← Laisse vide si le site est à la racine (GitHub Pages utilisateur)
 lang: fr
@@ -48,7 +48,7 @@ defaults:
       header:
         overlay_image: /assets/img/bxl-header.jpg
         overlay_filter: "0.3"
-        caption: "Entre brume et ruines"
+        caption: "Entre nous, franchement..."
       
       
   - scope:
@@ -84,7 +84,7 @@ author:
 seo:
   type: Website
   name: "Bxl2042"
-  description: "Du contenu à revoir d'urgence"
+  description: "Du contenu à revoir ensemble"
 
 # Social
 author:
