@@ -1,12 +1,12 @@
 ---
 layout: home
 classes: wide
-title: "BXL2030"
+title: "BXL2042"
 subtitle: "Un site de départ, libre et prêt à transformer"
 header:
   overlay_image: /assets/img/bxl-header.jpg
   overlay_filter: "0.3"
-  caption: "Entre brume et ruines"
+  caption: "Entre nous, franchement..."
     
 ---
 
